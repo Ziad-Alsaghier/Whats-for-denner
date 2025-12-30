@@ -132,12 +132,12 @@ body {
 .btn-gradient-main {
     background: linear-gradient(to left, #E80006 0%, #FF6700 100%);
     color: #ffffff;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 /* Btn Hover Styles  With Background Main Color */
 .btn-gradient-main:hover {
-    background: linear-gradient(to left, var(--main-color) 0%, var(--main-color) 100%);
+    background: linear-gradient( var(--main-color) 0%, var(--main-color) 100%);
     transform: scale(1.05);
     color: #ffffff;
 }
